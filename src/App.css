@@ -1,0 +1,58 @@
+.app {
+  width: 963px;
+  height: 588px;
+  margin-left: 100px;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container_button {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.continar {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: brown;
+}
+.box {
+  width: 250px;
+  height: 192px;
+  background: white;
+  border-style: groove;
+}
+.div_preview_background {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:761px;
+  height: 588px;
+  margin-left: 300px;
+  margin-top: 1%;
+  background: rgb(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.button {
+  width: 110px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 10px;
+}
+body {
+  z-index: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
